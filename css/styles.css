@@ -10,7 +10,7 @@ color: var(--main-color);
 background-color: #fff;
 letter-spacing: 0.03em;
 font-size: 14px;
-line-height: 1.14;
+line-height: 1.71;
 }
 
 .list {
@@ -32,12 +32,6 @@ line-height: 1.14;
 }
 
 
-.logo:hover,
-.logo:focus {
-background-color: var(--link-color);
-color: #fff;
-}
-
 /* nav */
 
 .site-nav .link {
@@ -45,6 +39,8 @@ color: #fff;
     font-weight: 500;
     letter-spacing: 0.02em;
     text-decoration: none;
+    font-size: 14px;
+    line-height: 1.14;
 }
 
 
@@ -87,6 +83,13 @@ color: var(--link-color);
     color: #fff;
     background-color: var(--link-color);
     cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 
 .button:hover,
@@ -109,6 +112,9 @@ background-color: #F5F4FA;
     color: var(--text-color);
     font-weight: 700;
     text-transform: uppercase;
+    font-size: 14px;
+    line-height: 1.14;
+    
 }
 
 /* team */
@@ -140,8 +146,6 @@ line-height: 1.16;
 .address {
     color: #fff;
     font-style: normal;
-    font-size: 14px;
-    line-height: 1.71;
     text-decoration: none;
     font-style: none;
 }
@@ -168,6 +172,10 @@ line-height: 1.16;
 color: var(--text-color);
 background-color: #F5F4FA;
 cursor: pointer;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
 }
 
 .project .button:hover,
